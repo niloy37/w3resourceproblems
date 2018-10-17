@@ -1,0 +1,10 @@
+//attempted solution - https://www.w3resource.com/java-exercises/basic/java-basic-exercise-10.php
+
+
+import java.util.Scanner;
+public class Solution {
+	public static void main(String[] args) {
+		
+System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
+    }
+}
