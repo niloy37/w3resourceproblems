@@ -1,0 +1,18 @@
+//atempted problem - https://www.w3resource.com/java-exercises/basic/java-basic-exercise-7.php
+
+
+import java.util.Scanner;
+public class Solution {
+	public static void main(String[] args) {
+		
+		Scanner var = new Scanner(System.in);
+		
+		
+	System.out.println("Input a Number ");
+	int x =var.nextInt();
+	
+	for(int i=1;i<=10;i++) {
+	System.out.println(x+" x "+i+"= "+(x*i));	
+	}
+    }
+}
