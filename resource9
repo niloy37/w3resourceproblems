@@ -1,0 +1,10 @@
+//atempted problem -https://www.w3resource.com/java-exercises/basic/java-basic-exercise-9.php
+
+
+import java.util.Scanner;
+public class Solution {
+	public static void main(String[] args) {
+		
+System.out.println((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+    }
+}
