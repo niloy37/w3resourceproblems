@@ -1,0 +1,22 @@
+//attempted problem - https://www.w3resource.com/java-exercises/basic/java-basic-exercise-6.php
+
+import java.util.Scanner;
+public class Solution {
+	public static void main(String[] args) {
+		
+		Scanner var = new Scanner(System.in);
+		
+		
+		System.out.println("Input First Number");
+		int x = var.nextInt();
+		System.out.println("Input Second Number");
+		int y = var.nextInt();
+		
+		System.out.println(x+" + "+y+" = "+(x+y));
+		System.out.println( x+" - "+y+" = "+(x-y));
+		System.out.println(x+" * "+y+" = "+(x*y));
+		System.out.println(x+" / "+y+" = "+(x/y));
+		System.out.println(x+" mod "+y+" = "+(x%y));
+		
+    }
+}
